@@ -1,6 +1,41 @@
 # calcultour
 
-A new Flutter project.
+A Simple Calculaotiur app build in flutter.
+
+## Getting Started
+
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
+# recipe_flutter
+
+A Simple recipe app build in flutter. This Repo demonstrate how we can use [Bloc](https://bloclibrary.dev/#/) for state management in flutter.
+
+<table>
+  <td>
+    <p align="center">
+      <img src="https://user-images.githubusercontent.com/4759634/151386586-d5c63af4-d783-420d-abcb-d845bdee26d8.png" alt="Recipe Home Screen" width="300"/>
+    </p>
+  </td>
+  <td>
+    <p align="center">
+      <img src="https://user-images.githubusercontent.com/4759634/151386621-a3263c84-8f7a-4c00-b0d8-16f5564b705c.png" alt="Recipe Video Screen" width="300"/>
+    </p>
+  </td>
+
+</table>
+
+## Requirements
+
+Create api key from [Sponnacular](https://spoonacular.com/) and assign it to apikey variable in the RemoteApiClient class.
+
+## Tech Stack
+
+- [Bloc](https://bloclibrary.dev/#/) </br>
+- [Dio](https://pub.dev/packages/dio) </br>
+- [Sqflite](https://pub.dev/packages/sqflite) </br>
 
 ## Getting Started
 

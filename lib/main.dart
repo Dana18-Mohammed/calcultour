@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:calcultour/Widgest/calculator_button.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter calculator',
       debugShowCheckedModeBanner: false,
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -185,8 +184,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   callback: btnOnClick,
                   filltext: 0XFFf4d160,
                   textcolor: 0xFF000000,
-                  textsize: 20,
-                ),
+                  textsize: 20,                ),
 
               ],
             ),
